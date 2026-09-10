@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-display: 'Oswald', 'Plus Jakarta Sans', sans-serif;
+  }
+  body {
+    font-family: var(--font-sans);
+    background-color: #0b0c0e;
+    color: #f3f4f6;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.font-display {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.025em;
+}
+
+/* Hide scrollbar for clean horizontal category pills */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

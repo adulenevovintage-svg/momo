@@ -1,0 +1,6 @@
+{
+  "name": "Mamboz Corner BBQ",
+  "description": "Official digital menu and online ordering for Mamboz Corner BBQ in Dar es Salaam, Tanzania. Flame-grilled BBQ, Mishkaki, Sekela, Biryani, Platters & Shakes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
